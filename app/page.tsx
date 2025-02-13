@@ -1,6 +1,6 @@
 import Hero from "@/components/hero";
 import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
+// import Clients from "@/components/Clients";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/ui/Grid";
@@ -16,7 +16,7 @@ export default function Home() {
         <Hero />
         <Grid/>
         <RecentProjects/>
-        <Clients />
+        {/* <Clients /> */}
         <Experience/>
         <Approach/>
         <Footer/>
